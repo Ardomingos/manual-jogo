@@ -1,0 +1,249 @@
+/* configurações globais */
+
+:root {
+  --main-bg-color: #2A2C2F;
+  --secondary-bg-color: #323437;
+  --text-color: white;
+}
+ 
+  
+*{
+  color: var(--text-color);
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.primary{
+  background-color: var(--main-bg-color);
+}
+
+.secundary{
+  background-color: var(--secondary-bg-color);
+}
+
+section{
+  height: 100vh;  
+}
+
+section.como-jogar h2,
+section.personagens h2,
+section.cartas h2{
+  height: 20vh;
+  width: 80vw;
+  align-items: end;
+  display: flex;
+  font-size: 60px;
+}
+
+/* Cabecalho */
+
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  align-items: center;
+  background-color: var(--main-bg-color);
+}
+
+header div{
+  display: flex;
+  width: 260px;
+  justify-content: space-around;
+}
+
+
+/* pagina inicial */
+
+section.inicio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.inicio img{
+  size: 20rem;
+}
+
+section.inicio div{
+  max-width: 80vw;
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: space-between;
+}
+
+section.inicio h2{
+  font-size: 60px;
+}
+
+section.inicio div div{
+  flex-direction: column;
+  align-self: center;
+  width: 60%;
+}
+
+section.inicio div div h2{
+  margin-bottom: 15px;
+}
+
+/* cartas */
+
+
+section.cartas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+
+
+.secao-cartas{
+  display: flex;
+  width: 80vw;
+  height: 100vh;
+  justify-content: space-between;
+  font-size: 40px;
+  align-self: center;
+}
+
+
+section.cartas .atras,
+section.cartas .frente-numeradas,
+section.cartas .frente-sabotagem{
+  height: 80vh;
+  width: 80vw;
+}
+
+
+section.cartas .frente-numeradas,
+section.cartas .frente-sabotagem{
+  height: 85%;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+section.cartas .frente-numeradas div,
+section.cartas .frente-sabotagem div{
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 55vh;
+  align-items: flex-start;
+}
+
+
+section.cartas .atras{
+  height: 66%;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+
+.atras img{
+  max-width: 13vw;
+}
+
+.frente-numeradas img,
+.frente-sabotagem img{
+  max-width: 9vw;
+}
+
+.frente div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Personagens */
+
+section.personagens{
+  display: flex;
+  justify-content: center;
+}
+
+section.personagens div{
+  width: 80vw;
+  height: 75vh;
+}
+
+section.personagens div img{
+  background: white;
+  height: 80%;
+  width: 20%;
+}
+
+section.personagens div .card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/*como jogar*/
+
+section.como-jogar{
+  display: flex;
+  justify-content: center;
+}
+
+section.como-jogar div{
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+    
+}
+
+section.como-jogar .texto{
+  background-color: var(--secondary-bg-color);
+  width: 100%;
+  height: 60%;
+  display:flex;
+  padding: 30px 20px; 
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.como-jogar-div{
+  padding-left: 15px;
+  width: 100%;
+}
+
+section.como-jogar .texto div{
+  width: 45%;
+}
+
+
+section.como-jogar .texto h3{
+  padding-bottom: 15px;
+}
+
+section.como-jogar .texto h4{
+  padding-bottom: 10px;
+}
+
+section.como-jogar .texto p{
+  padding-bottom: 5px;
+}
+
+/* tabela */
+
+td{
+  padding: 10px;
+}
+
+.color-table-1{
+  background-color: var(--main-bg-color);
+}
+
