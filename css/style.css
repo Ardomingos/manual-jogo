@@ -221,7 +221,7 @@ section.como-jogar .texto{
 }
 
 section.como-jogar .texto div{
-  width: 45%;
+  width: 50%;
 }
 
 
@@ -237,6 +237,9 @@ section.como-jogar .texto p{
   padding-bottom: 5px;
 }
 
+.como-jogar-texto{
+  padding-top: 14rem;
+}
 /* tabela */
 
 td{
